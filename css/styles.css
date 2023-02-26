@@ -1,0 +1,75 @@
+* 
+{
+    font-family: 'JetBrains Mono', monospace;
+
+    /* MAIN COLORS SECTION */
+    --darkdark_color:   #7C8363;
+    --dark_color:       #979E7D;
+    --desc_color:       #ADB690; 
+    --maintext_color:   #C3CCA7;
+    --light_color:      #CCD5AE;
+    --project_bg_color: #CFD6B3;
+    --section_color:    #F4F4D5;
+    --bg_color:         #FEFAE0;
+
+    /* KNOWLEDGE COLORS SECTION */
+    --knowledge_bg:     #1B1329;
+    --bg_name:          #372E48;
+    --knowledge_light:  #432F68;
+    --subtitle_color:   #806AA8;
+    --text_color:       #E5D6FF;
+
+    /* KW LANGUAGES SECTION */
+    --progressbar_bg:   #34254E;
+    --html_color:       #FFD27B;
+    --css_color:        #7BDFFF;
+    --php_color:        #7B80FF;
+    --java_color:       #FF7B7B;
+}
+
+html 
+{
+    background: var(--bg_color);
+    color: var(--light_color);
+}
+
+.username
+{
+    text-shadow: -4px 4px 0px var(--dark_color);
+}
+
+div.sections 
+{
+    background: var(--section_color);
+}
+
+div>a:hover
+{
+    color: var(--dark_color);
+}
+a:hover #ig_icon,
+a:hover #yt_icon,
+a:hover #tt_icon
+{
+    fill: var(--dark_color);
+}
+
+.name
+{
+    text-shadow: -3px 3px 0px #979E7D;
+}
+
+.title_main
+{
+    color: var(--maintext_color);
+}
+
+.desc_main
+{
+    color: var(--desc_color);
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
